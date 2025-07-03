@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sdesiign - Personalizirani papiri</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+  body {
+    margin: 0; padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #fff0f6;
+    color: #4b3a52;
+  }
+  header {
+    background: #f8d7e7;
+    padding: 30px 20px;
+    text-align: center;
+    position: relative;
+  }
+  header h1 {
+    font-weight: 600;
+    font-size: 2.8rem;
+    margin: 0;
+    color: #d9488b;
+  }
+  header p {
+    margin-top: 8px;
+    font-weight: 300;
+    font-size: 1.2rem;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #7a4f76;
+  }
+  main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  section {
+    margin-bottom: 50px;
+  }
+  h2 {
+    color: #d9488b;
+    font-weight: 600;
+    border-bottom: 3px solid #f9a8d4;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+    color: #6a5c6f;
+    font-weight: 400;
+    font-size: 1.1rem;
+  }
+  ul li {
+    margin-bottom: 10px;
+  }
+  footer {
+    text-align: center;
+    padding: 25px 15px;
+    background: #f8d7e7;
+    color: #854175;
+    font-size: 0.9rem;
+  }
+  a {
+    color: #d9488b;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  /* Cvjetni detalji /
+  header::before {
+    content: "🌸";
+    font-size: 3rem;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+  }
+  header::after {
+    content: "✨";
+    font-size: 2rem;
+    position: absolute;
+    right: 15px;
+    top: 25px;
+  }
+  / Slike galerije */
+  #galerija {
+    text-align: center;
+  }
+  #galerija img {
+    max-width: 90%;
+    height: auto;
+    margin-bottom: 25px;
+    border-radius: 14px;
+    box-shadow: 0 6px 12px rgba(217, 72, 139, 0.3);
+    transition: transform 0.3s ease;
+  }
+  #galerija img:hover {
+    transform: scale(1.05);
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Sdesiign</h1>
+  <p>Izrada personaliziranih planera, rokovnika, postera, vizit kartica i još mnogo toga — s ljubavlju i pastelnim tonovima.</p>
+</header>
+
+<main>
+
+  <section id="uvod" style="max-width: 700px; margin: 20px auto; padding: 0 20px; color: #6a5c6f; font-weight: 400; font-size: 1.1rem; line-height: 1.6;">
+    <p>
+      Dobrodošli u <strong>Sdesiign</strong>!<br><br>
+      Sdesiign je mjesto gdje se kreativnost i nježnost susreću kako bi stvorili jedinstvene, personalizirane proizvode od papira. Bilo da tražite savršeni planer, prekrasan poster ili posebnu vizit kartu, ovdje ćete pronaći proizvode izrađene s puno ljubavi i pažnje prema detaljima.<br><br>
+      Svaki komad je osmišljen da unese radost i ljepotu u vaš svakodnevni život, obojen pastelnim tonovima i ukrašen nježnim cvjetnim motivima.
+    </p>
+  </section>
+
+  <section id="o-meni">
+    <h2>O meni</h2>
+    <p>Zovem se Safija Sujoldžić i moja najveća strast je dizajn koji ispunjava srcem i pažnjom. Prije sedam godina, kao školarica, započela sam svoj kreativni put osnivanjem Sdesiigna — malog svijeta personaliziranih papirnih proizvoda koji je bio moj način da izrazim sebe i zaradim džeparac.</p>
+    <p>Danas, kao mama poduzetnica, sa mnogo više iskustva i ljubavi prema onome što radim, vraćam se sa željom da svojim jedinstvenim planerima, rokovnicima, posterima i vizit karticama donesem toplinu, organizaciju i inspiraciju u živote drugih. Svaki moj proizvod nastaje iz srca, u pastelnim nijansama i s pažnjom na svaki detalj.</p>
+  </section>
+
+  <section id="usluge">
+    <h2>Šta radim</h2>
+    <ul>
+      <li>Planeri</li>
+      <li>Rokovnici</li>
+      <li>Posteri</li>
+      <li>Vizit kartice</li>
+      <li>Baby cards</li>
+    </ul>
+  </section>
+
+  <section id="galerija">
+    <h2>Galerija</h2>
+    <img src="https://cdn.pixabay.com/photo/2017/07/31/11/22/agenda-2551589_1280.jpg" alt="Lijepi planer" />
+    <img src="https://cdn.pixabay.com/photo/2016/03/27/07/08/planner-1283682_1280.jpg" alt="Planer i rokovnik" />
+  </section>
+
+  <section id="kontakt">
+    <h2>Kontakt</h2>
+    <p>Prati me na Instagramu: <a href="https://instagram.com/s_desiiig" target="_blank">@s_desiiig</a></p>
+    <p>Piši mi na mail: <a href="mailto:sdesiign1@gmail.com">sdesiign1@gmail.com</a></p>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Sdesiign. Sva prava zadržana. 🌸✨
+</footer>
+
+</body>
+</html>
